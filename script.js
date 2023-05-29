@@ -5,7 +5,6 @@ const copyIcon = document.createElement('img');
 copyIcon.src = 'copy.png';
 copyIcon.alt = 'copy-img';
 copyIcon.className = 'icon';
-console.log('image is', copyIcon);
 
 // add icons to the code snippets
 codeSnippets.forEach((code) => {
