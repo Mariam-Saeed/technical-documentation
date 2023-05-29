@@ -2,7 +2,7 @@ const codeSnippets = document.querySelectorAll('pre');
 
 // create element for icon
 const copyIcon = document.createElement('img');
-copyIcon.src = '/copy.png';
+copyIcon.src = 'copy.png';
 copyIcon.alt = 'copy-img';
 copyIcon.className = 'icon';
 console.log(copyIcon);
